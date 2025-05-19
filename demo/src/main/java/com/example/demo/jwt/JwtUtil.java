@@ -40,7 +40,7 @@ public class JwtUtil {
         return Jwts.parserBuilder()
                 .setSigningKey(key)
                 .build()
-                .parseClaimsJws(token)  // <<<<< Este es el método correcto
+                .parseClaimsJws(token)
                 .getBody()
                 .getSubject();
     }
