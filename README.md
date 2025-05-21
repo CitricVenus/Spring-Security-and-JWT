@@ -1,6 +1,9 @@
 Run project:  
-Use `mvn spring-boot:run` to run the project
+Use `mvn spring-boot:run` to run the project  
 
+**IS IMPORTANT THAT YOU CREATE DATABASES WHERE THE TABLES WILL CREATE, YOU CAN SEE IN `application.properties` for each project the name I used in SQL**
+
+  
 Use `/register` to create a user with **ADMIN** or **USER** role.  
 ### Example of create new user:  
 ` {
