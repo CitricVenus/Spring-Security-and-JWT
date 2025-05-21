@@ -9,7 +9,12 @@ Use `/register` to create a user with **ADMIN** or **USER** role.
 "role" : "ADMIN"
 }`
 
-Just all Users can acces to `/register` and `/login` enpoint. 
+Just all Users can acces to `/register` and `/login` enpoint.   
+If use `/login` with **Admin** credentials, you will have a token, this token you can put in Postam to use  **Admin** endpoints, otherwise you will have a `401 Response`
+` {
+"username" : "admin3",
+"password" : "admin3",
+}`
 
 **Admin Users** have acces to root `/api/admin`:  
 - `/getusers`
