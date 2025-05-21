@@ -16,6 +16,7 @@ Just all Users can acces to `/register` and `/login` enpoint.
 - `/adduser`
 - `/delete/{id}`
 - `/getuser/{id}`
+    
   Rsponse will give you the object.
 
   
